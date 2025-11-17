@@ -1,0 +1,13 @@
+{
+    "required": true,
+    "package": "net.scoobis.savingrewrite.mixin",
+    "compatibilitylevel": "JAVA_17",
+    "refmap": "savingrewrite.refmap.json",
+    "mixins": [
+        "MixinMinecraftServer"
+    ],
+    "client": [
+        "MixinIntegratedServer"
+    ],
+    "minVersion": "0.8"
+}
